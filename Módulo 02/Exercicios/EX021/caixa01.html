@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixar</title>
+    <style>
+        h1 { /* Box-level */
+            background-color: lightgray;
+
+            height: 300px;
+            width: 300px;
+
+            /* 
+                Para simplificar deve-se seguir a orderm: border-width, border-style e border-color;
+            */
+
+            border: 10px solid darkslategray;
+
+            /* 
+                Para simplificar deve-se seguir a orderm: padding-top, padding-right, padding-bottom e padding-left;
+
+                Se for igual os valores, pode ser colocado apenas uma vez o valor, exemplo: padding: 10x;
+
+                Quando se coloca dois valores, o primeiro valor indica em cima e embaixo, segundo valor indica direita e esquerda, exemplo: padding: 10px 20px;
+            */
+
+            padding: 10px;
+
+            /* 
+                Para simplificar deve-se seguir a orderm: margin-top, margin-right, margin-bottom e margin-left;
+
+                Se for igual os valores, pode ser colocado apenas uma vez o valor, exemplo: margin: 10x;
+
+                Quando se coloca dois valores, o primeiro valor indica em cima e embaixo, segundo valor indica direita e esquerda, exemplo: margin: 10px 20px;
+            */
+
+            margin: 20px auto 40px auto;
+
+            /* 
+                Para simplificar deve-se seguir a orderm: outline-width, outline-style e outline-color;
+            */
+
+            outline: 5px dashed red;
+        }
+
+        a { /* Inline-level */
+            border: 10px solid red;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a> vamos ver como tudo funciona</p>
+</body>
+</html>

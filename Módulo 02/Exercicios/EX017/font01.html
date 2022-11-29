@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    
+    <style>
+        body {
+    
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* Medidas absolutas 
+            cm (Centímetro), mm (Milímetro), in (Polegada), px (Pixel), pt (Ponto), pc (Paica).
+            
+            Medidas relativas
+            em (Tamanho atual), ex (Tamanho da altura x), rem (Fonte que está configurada no body), vw (Largura da Viewport), vh (Altura da Viewport), % (porcentagem) 
+            
+            16px geralmente é igual a 1em
+            
+            Recomendação principal: Sempre usar "px" ou "em" para tamanho de fonte */
+            font-size: 16px;
+
+            /* Weight (Peso), Width (Largura), Height(Altura) 
+            
+            Lighter, normal, bold e bolder*/
+        }
+
+        h1 {
+            /* Shorthand font
+            
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            font: italic bolder 3em Arial
+        }
+
+        h2 {
+            font: italic bold 2em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dolorem vitae officiis aut libero cumque aperiam, voluptatem harum, sit expedita, voluptatum hic. Repellat earum similique accusantium error cumque, molestias sunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque a dolores tempore distinctio quam, ad sapiente veniam totam consectetur, omnis deserunt voluptatum soluta hic placeat. Eum aliquid perspiciatis dolores illo.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ipsum praesentium autem repellendus temporibus sit. Fugit, eos. Iusto ducimus, sint illum error tempora esse dolorum animi rem aperiam saepe minima.</p>
+
+    <h2>Substitulo de exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A optio totam veritatis fuga tempore ullam inventore repellendus laboriosam ipsum eos, quis modi eveniet architecto sint qui officia? Quae, harum error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, exercitationem fugiat! Quam dolore illum porro neque totam sed voluptas nam quaerat id delectus laboriosam voluptatem impedit harum, eum ex alias?</p>
+</body>
+</html>
